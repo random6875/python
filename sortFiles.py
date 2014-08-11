@@ -7,6 +7,7 @@ from os.path import isfile, join
 import datetime
 import shutil
 
+# main function
 def main(argv):
     inputdir = ''
     outputdir = ''
@@ -59,7 +60,6 @@ def main(argv):
         print cdate
         
     print onlyfiles
-
 
 if __name__ == "__main__":
    main(sys.argv[1:])
